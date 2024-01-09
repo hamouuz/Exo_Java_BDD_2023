@@ -8,7 +8,7 @@
 <form action="#" method="post">
     <p>Saisir la valeur 1 : <input type="text" name="valeur1"></p>
     <p>Saisir la valeur 2 : <input type="text" name="valeur2"></p>
-    <p>Saisir la valeur 3 (pour l'exercice 1) : <input type="text" name="valeur3"></p>
+    <p>Saisir la valeur 3 (pour lexercice 1) : <input type="text" name="valeur3"></p>
     <p><input type="submit" value="Afficher"></p>
 </form>
 
@@ -36,7 +36,7 @@
         if (intValeur3 > intValeur1 && intValeur3 < intValeur2) { %>
             <p>Oui, C est compris entre A et B.</p>
         <% } else { %>
-            <p>Non, C n'est pas compris entre A et B.</p>
+            <p>Non, C nest pas compris entre A et B.</p>
         <% }
     } %>
 
@@ -52,7 +52,7 @@
         <p>Valeur 2 est un nombre impair.</p>
     <% }
     if (valeur3 != null) {
-        int intValeur3 = Integer.parseInt(valeur3); <!-- Ajout de l'initialisation -->
+        int intValeur3 = Integer.parseInt(valeur3); // Ajout de l'initialisation
         if (intValeur3 % 2 == 0) { %>
             <p>Valeur 3 est un nombre pair.</p>
         <% } else { %>
